@@ -1,10 +1,10 @@
-pwd - print wokring directory : 
+pwd - print working directory : 
 -----------------------------------------------
-ls -  ls is a Linux shell command that lists directory contents of files and directories
+ls -  ls is a Linux command that lists directory files and directories
 -------------------------------------------------------
-touch myfile - Creates a empty folder : 
+touch myfile - Creates a empty file / modify timestamp of a file : 
 ------------------------------------------------------
-cd -  linux known as change directory command. It is used to change current working directory.
+cd -  change current directory command. When a directory name is provided, cd changes the current directory to it.
 ------------------------------------------------------
 cat - It reads data from the file and gives their content as output. It helps us to create, view, concatenate files.
 ---------------------------------------------------------------
@@ -14,11 +14,11 @@ mkdir - To create a new directory
 
 cp - cp stands for copy. This command is used to copy files or group of files or directory
 -------------------------------------------------------------------------------
-vi - ?
+vi - default text editor . Using vi , we can create a file , work on already existing file.
 
-cal -If a user wants a quick view of calendar in Linux termina eg. cal [ [ month ] year]
+cal -If a user wants a quick view of calendar in Linux terminal eg. cal [ [ month ] year]
 
-timedatectl - ?
+timedatectl - command in Linux allows to query and change the system clock and its settings.
 
 whoami - whoami command is used both in Unix Operating System and as well as in Windows Operating System.
 
@@ -34,7 +34,7 @@ reboot - reboot command is used restart or reboot the system. In a Linux system 
 
 last - The last command in Linux is used to display the list of all the users logged in and out since the file /var/log/wtmp was created
 
-id 
+id - shows the ID of current user UID and GID.
 
 who - who command is used to find out the following information :
 1. Time of last system boot
@@ -49,7 +49,7 @@ tar - The Linux ‘tar’ stands for tape archive, is used to create Archive and
 
 while - while command in Linux is used to repeatedly execute a set of command as long as the COMMAND returns true.
 
-head- t is the complementary of Tail command. The head command, as the name implies, print the top N number of data of the given input.
+head - It is the complementary of Tail command. The head command, as the name implies, print the top N number of data of the given input.
 
 tail - It is the complementary of head command.The tail command, as the name implies, print the last N number of data of the given input.
 
@@ -57,9 +57,9 @@ lsblk - Lsblk is used to display details about block devices and these block dev
 
 lshw - lshw(list hardware) is a small Linux/Unix tool which is used to generate the detailed information of the system’s hardware configuration from various files in the /proc directory. lshw can also report exact memory configuration, firmware version, mainboard configuration, CPU version and speed, cache memory configuration, bus speed, etc on DMI-capable x86 or IA-64(Itanium family of 64 microprocessors) system and some PowerPC machine. This command needs root permission to show full information else partial information will be displayed.
 
-lsmem  - ?
+lsmem  - shows the memory block size, the device size, and the amount of memory in online and offline state
 
-useradd - seradd is a command in Linux that is used to add user accounts to your system. It is just a symbolic link to adduser command in Linux and the difference between both of them is that useradd is a native binary compiled with system whereas adduser is a Perl script which uses useradd binary in the background. It make changes to the following files:
+useradd - It is a command in Linux that is used to add user accounts to your system. It is just a symbolic link to adduser command in Linux and the difference between both of them is that useradd is a native binary compiled with system whereas adduser is a Perl script which uses useradd binary in the background. It make changes to the following files:
 
 /etc/passwd
 /etc/shadow
@@ -67,7 +67,7 @@ useradd - seradd is a command in Linux that is used to add user accounts to your
 /etc/gshadow
 creates a directory for new user in /home
 
-su - ?
+su - switch user command . If no user mentioned , switches to root account.
 
 echo - echo command in linux is used to display line of text/string that are passed as an argument . This is a built in command that is mostly used in shell scripts and batch files to output status text to the screen or a file.
 eg. echo [option] [string]
@@ -92,24 +92,24 @@ eg. chmod [reference][operator][mode] file...
 find - The find command in UNIX is a command line utility for walking a file hierarchy. It can be used to find files and directories and perform subsequent operations on them. It supports searching by file, folder, name, creation date, modification date, owner and permissions. By using the ‘-exec’ other UNIX commands can be executed on files or folders found.
 $ find ./GFG -name *.txt 
 
-sudo -sudo (Super User DO) command in Linux is generally used as a prefix of some command that only superuser are allowed to run. If you prefix “sudo” with any command, it will run that command with elevated privileges or in other words allow a user with proper permissions to execute a command as another user, such as the superuser. This is the equivalent of “run as administrator” option in Windows. The option of sudo lets us have multiple administrators.
+sudo - sudo (Super User DO) command in Linux is generally used as a prefix of some command that only superuser are allowed to run. If you prefix “sudo” with any command, it will run that command with elevated privileges or in other words allow a user with proper permissions to execute a command as another user, such as the superuser. This is the equivalent of “run as administrator” option in Windows. The option of sudo lets us have multiple administrators.
 
-SELINUX - SELniux makes it more difficult for black hat hackers to use,mor access files orservices even on compromised system.SELinux asigns the context to each object such as file a device or network scoket 
 
 mv - mv stands for move. mv is used to move one or more files or directories from one place to another in file system like UNIX. It has two distinct functions:
 (i) It rename a file or folder.
 (ii) It moves group of files to different directory.
 
 
+SELINUX - SELinux is the security implementation which enhances system security and in the event of security breach, it stops that from spreading in entire system.
+SELinux works in three modes; Disable, Permissive and Enforcing.
+
+getenforce - To display the current mode of SELinux
+setenforce - Helps toggle between SELinux modes (from enforcing to permissive or the other way around)
 
 
-sentenforce - ?
+curl - It is a command line tool to transfer data to or from a server, using any of the supported protocols (HTTP, FTP, IMAP, POP3, SCP, SFTP, SMTP, TFTP, TELNET, LDAP or FILE). curl is powered by Libcurl.
 
-getenforce - ?
-
-curl - url is a command line tool to transfer data to or from a server, using any of the supported protocols (HTTP, FTP, IMAP, POP3, SCP, SFTP, SMTP, TFTP, TELNET, LDAP or FILE). curl is powered by Libcurl.
-
-chgrp - hgrp command in Linux is used to change the group ownership of a file or directory. All files in Linux belong to an owner and a group. You can set the owner by using “chown” command, and the group by the “chgrp” command.
+chgrp - chgrp command in Linux is used to change the group ownership of a file or directory. All files in Linux belong to an owner and a group. You can set the owner by using “chown” command, and the group by the “chgrp” command.
 eg. chgrp [OPTION]… GROUP FILE…
 
 
