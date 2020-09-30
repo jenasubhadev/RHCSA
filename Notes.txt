@@ -1,0 +1,153 @@
+pwd - print wokring directory : 
+-----------------------------------------------
+ls -  ls is a Linux shell command that lists directory contents of files and directories
+-------------------------------------------------------
+touch myfile - Creates a empty folder : 
+------------------------------------------------------
+cd -  linux known as change directory command. It is used to change current working directory.
+------------------------------------------------------
+cat - It reads data from the file and gives their content as output. It helps us to create, view, concatenate files.
+---------------------------------------------------------------
+grep - The grep filter searches a file for a particular pattern of characters, and displays all lines that contain that pattern. 
+------------------------------------------------------------------------
+mkdir - To create a new directory
+
+cp - cp stands for copy. This command is used to copy files or group of files or directory
+-------------------------------------------------------------------------------
+vi - ?
+
+cal -If a user wants a quick view of calendar in Linux termina eg. cal [ [ month ] year]
+
+timedatectl - ?
+
+whoami - whoami command is used both in Unix Operating System and as well as in Windows Operating System.
+
+It is basically the concatenation of the strings “who”,”am”,”i” as whoami.
+It displays the username of the current user when this command is invoked.
+It is similar as running the id command with the options -un.
+
+w - w command in Linux is used to show who is logged on and what they are doing. This command shows the information about the users currently on the machine and their processes. 
+
+uptime - Uptime Command In Linux: It is used to find out how long the system is active (running). This command returns set of values that involve, the current time, and the amount of time system is in running state, number of users currently logged into, and the load time for the past 1, 5 and 15 minutes respectively.
+
+reboot - reboot command is used restart or reboot the system. In a Linux system administration, there comes a need to restart the server after the completion of some network and other major updates.
+
+last - The last command in Linux is used to display the list of all the users logged in and out since the file /var/log/wtmp was created
+
+id 
+
+who - who command is used to find out the following information :
+1. Time of last system boot
+2. Current run level of the system
+3. List of logged in users and more.
+$who [options] [filename] 
+
+bc - bc command is used for command line calculator. It is similar to basic calculator by using which we can do basic mathematical calculations.
+eg.bc [ -hlwsqv ] [long-options] [ file ... ] 
+
+tar - The Linux ‘tar’ stands for tape archive, is used to create Archive and extract the Archive files. 
+
+while - while command in Linux is used to repeatedly execute a set of command as long as the COMMAND returns true.
+
+head- t is the complementary of Tail command. The head command, as the name implies, print the top N number of data of the given input.
+
+tail - It is the complementary of head command.The tail command, as the name implies, print the last N number of data of the given input.
+
+lsblk - Lsblk is used to display details about block devices and these block devices(Except ram disk) are basically those files that represent devices connected to the pc.
+
+lshw - lshw(list hardware) is a small Linux/Unix tool which is used to generate the detailed information of the system’s hardware configuration from various files in the /proc directory. lshw can also report exact memory configuration, firmware version, mainboard configuration, CPU version and speed, cache memory configuration, bus speed, etc on DMI-capable x86 or IA-64(Itanium family of 64 microprocessors) system and some PowerPC machine. This command needs root permission to show full information else partial information will be displayed.
+
+lsmem  - ?
+
+useradd - seradd is a command in Linux that is used to add user accounts to your system. It is just a symbolic link to adduser command in Linux and the difference between both of them is that useradd is a native binary compiled with system whereas adduser is a Perl script which uses useradd binary in the background. It make changes to the following files:
+
+/etc/passwd
+/etc/shadow
+/etc/group
+/etc/gshadow
+creates a directory for new user in /home
+
+su - ?
+
+echo - echo command in linux is used to display line of text/string that are passed as an argument . This is a built in command that is mostly used in shell scripts and batch files to output status text to the screen or a file.
+eg. echo [option] [string]
+
+crontab - The crontab is a list of commands that you want to run on a regular schedule, and also the name of the command used to manage that list. Crontab stands for “cron table, ” because it uses the job scheduler cron to execute tasks; cron itself is named after “chronos, ” the Greek word for time.cron is the system process which will automatically perform tasks for you according to a set schedule. 
+The schedule is called the crontab, which is also the name of the program used to edit that schedule.
+
+cut - The cut command in UNIX is a command for cutting out the sections from each line of files and writing the result to standard output. It can be used to cut parts of a line by byte position, character and field.
+
+sort - SORT command is used to sort a file, arranging the records in a particular order. By default, the sort command sorts file assuming the contents are ASCII. Using options in sort command, it can also be used to sort numerically.
+
+Lines starting with a number will appear before lines starting with a letter.
+Lines starting with a letter that appears earlier in the alphabet will appear before lines starting with a letter that appears later in the alphabet.
+Lines starting with a lowercase letter will appear before lines starting with the same letter in uppercase.
+
+
+chmod - In Unix-like operating systems, the chmod command is used to change the access mode of a file.
+The name is an abbreviation of change mode.
+eg. chmod [reference][operator][mode] file... 
+
+
+find - The find command in UNIX is a command line utility for walking a file hierarchy. It can be used to find files and directories and perform subsequent operations on them. It supports searching by file, folder, name, creation date, modification date, owner and permissions. By using the ‘-exec’ other UNIX commands can be executed on files or folders found.
+$ find ./GFG -name *.txt 
+
+sudo -sudo (Super User DO) command in Linux is generally used as a prefix of some command that only superuser are allowed to run. If you prefix “sudo” with any command, it will run that command with elevated privileges or in other words allow a user with proper permissions to execute a command as another user, such as the superuser. This is the equivalent of “run as administrator” option in Windows. The option of sudo lets us have multiple administrators.
+
+SELINUX - SELniux makes it more difficult for black hat hackers to use,mor access files orservices even on compromised system.SELinux asigns the context to each object such as file a device or network scoket 
+
+mv - mv stands for move. mv is used to move one or more files or directories from one place to another in file system like UNIX. It has two distinct functions:
+(i) It rename a file or folder.
+(ii) It moves group of files to different directory.
+
+
+
+
+sentenforce - ?
+
+getenforce - ?
+
+curl - url is a command line tool to transfer data to or from a server, using any of the supported protocols (HTTP, FTP, IMAP, POP3, SCP, SFTP, SMTP, TFTP, TELNET, LDAP or FILE). curl is powered by Libcurl.
+
+chgrp - hgrp command in Linux is used to change the group ownership of a file or directory. All files in Linux belong to an owner and a group. You can set the owner by using “chown” command, and the group by the “chgrp” command.
+eg. chgrp [OPTION]… GROUP FILE…
+
+
+man - man command in Linux is used to display the user manual of any command that we can run on the terminal. It provides a detailed view of the command which includes NAME, SYNOPSIS, DESCRIPTION, OPTIONS, EXIT STATUS, RETURN VALUES, ERRORS, FILES, VERSIONS, EXAMPLES, AUTHORS and SEE ALSO.
+
+Every manual is divided into the following sections:
+
+Executable programs or shell commands
+System calls (functions provided by the kernel)
+Library calls (functions within program libraries
+Games
+Special files (usually found in /dev)
+File formats and conventions eg /etc/passwd
+Miscellaneous (including macro packages and conventions), e.g. groff(7)
+System administration commands (usually only for root)
+Kernel routines [Non standard]
+
+zip - zip is used to compress the files to reduce file size and also used as file package utility. zip is available in many operating systems like unix, linux, windows etc.
+If you have a limited bandwidth between two servers and want to transfer the files faster, then zip the files and transfer.
+
+nfs - The advent of distributed computing was marked by the introduction of distributed file systems. Such systems involved multiple client machines and one or a few servers. The server stores data on its disks and the clients may request data through some protocol messages.
+
+Advantages of a distributed file system:
+
+Allows easy sharing of data among clients.
+Provides centralized administration.
+Provides security, i.e. one must only secure the servers to secure data.
+
+Ldap- Lightweight Directory Access Protocol (LDAP) is an internet protocol works on TCP/IP, used to access information from directories. LDAP protocol is basically used to access an active directory.
+
+Features of LDAP:
+
+Functional model of LDAP is simpler due to this it omits duplicate, rarely used and esoteric feature.
+It is easier to understand and implement.
+It uses strings to represent data
+
+parted - Parted is a GNU utility, which is used to manipulate the hard disk partitions.
+
+Using parted, you can add, delete, and edit partitions and the file systems located on those partitions. You can also clone partitions.
+
+disk also known as format disk is a dialog-driven command in Linux used for creating and manipulating disk partition table. It is used for the view, create, delete, change, resize, copy and move partitions on a hard drive using the dialog-driven interface
